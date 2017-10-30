@@ -17,7 +17,7 @@ for key in data1:
     data2[key2] = data1[key]#此时将我们改变的key值对应的value重新映射回来。
 df = pd.Series(data2)
 print(df)
-df.plot(kind = 'bar')#直方图
+df.plot()#直方图
 plt.show()
 
 #collect[b][0]=datetime.datetime.strptime(collect[b][0],'%Y:%M:%D')
